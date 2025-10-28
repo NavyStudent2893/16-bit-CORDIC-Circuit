@@ -60,7 +60,7 @@ Input angles are scaled such that 180° = 32768.
 - **45° (8192):**  
   - sin(45°) ≈ 0.707 → 5792 (fixed-point)  
   - cos(45°) ≈ 0.707 → 5792 (fixed-point)
-  - ![45]https://raw.githubusercontent.com/NavyStudent2893/16-bit-CORDIC-Circuit/refs/heads/main/45.png)
+  - ![45](https://raw.githubusercontent.com/NavyStudent2893/16-bit-CORDIC-Circuit/refs/heads/main/45.png)
 
 - **60° (10923):**  
   - sin(60°) ≈ 0.866 → 7094 (fixed-point)  
