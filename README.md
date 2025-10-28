@@ -70,7 +70,6 @@ Input angles are scaled such that 180° = 32768.
 Waveforms were captured in `cordic_makerchip_waveform.vcd` for verification.  
 The FSM and datapath behaved as expected, and results matched theoretical values within CORDIC’s fixed-point accuracy limits.
 
-> Tip: Include screenshots of your waveform outputs in the repository for better documentation.
 
 ---
 
