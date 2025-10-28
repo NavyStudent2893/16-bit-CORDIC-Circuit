@@ -1,6 +1,6 @@
 # 16-bit CORDIC Core in Verilog
 
-## 🧭 Overview
+##  Overview
 This repository contains the Verilog implementation of a **16-bit CORDIC (Coordinate Rotation Digital Computer)** circuit designed to calculate **sine and cosine** values efficiently.  
 The design uses only **adders, subtractors, and bit-shifters**, completely avoiding hardware multipliers.
 
@@ -8,7 +8,7 @@ This project was developed as part of the **eSim Hackathon 2025**, and was funct
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - Calculates sine and cosine using the CORDIC Rotation Mode.  
 - Operates on 16-bit signed fixed-point numbers (`WIDTH = 16`).  
@@ -19,7 +19,7 @@ This project was developed as part of the **eSim Hackathon 2025**, and was funct
 
 ---
 
-## 🧩 Implementation Details
+##  Implementation Details
 
 ### Fixed-Point Scaling
 Two different scaling methods are used:
@@ -35,14 +35,14 @@ A scaling factor of 4974, representing (1/K × 2¹³), is applied to the initial
 
 ---
 
-## 📂 Modules
+##  Modules
 
 - **cordic.v:** Contains the FSM controller and datapath logic for iterative rotation.  
 - **angle_lut.v:** Combinational module providing pre-calculated arctangent constants (`atan(2⁻ⁱ)`) using the 2¹⁵ angle scaling.
 
 ---
 
-## 🧪 Simulation and Verification
+##  Simulation and Verification
 
 The design was simulated and verified using the Makerchip IDE.  
 A testbench (`cordic_makechip_code.v`) was created to provide clock, reset, and stimulus inputs to the CORDIC module.
@@ -73,7 +73,7 @@ The FSM and datapath behaved as expected, and results matched theoretical values
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Simulation
 1. Load `cordic.v` and `angle_lut.v` into your Verilog simulator.  
@@ -102,7 +102,7 @@ Physical design targeting the IHP SG13G2 PDK was not completed during the hackat
 
 ---
 
-## 📘 References
+##  References
 
 - Jack E. Volder, “The CORDIC Trigonometric Computing Technique,” *IRE Transactions on Electronic Computers*, 1959.  
 - Ray Andraka, “A Survey of CORDIC Algorithms for FPGA-Based Computers,” *FPGA Conference*, 1998.  
@@ -110,7 +110,7 @@ Physical design targeting the IHP SG13G2 PDK was not completed during the hackat
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Mohd Maaz Quraishi**  
 eSim Hackathon 2025 Participant  
