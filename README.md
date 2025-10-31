@@ -114,7 +114,8 @@ Physical design targeting the IHP SG13G2 PDK was not completed during the hackat
 
 **Mohd Maaz Quraishi**  
 eSim Hackathon 2025 Participant  
-Department of Electronics and Communication Engineering  
+Department of Electronics and Communication Engineering ,
+Jamia Millia Islamia
 
 ---
 
