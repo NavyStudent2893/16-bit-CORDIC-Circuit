@@ -1,3 +1,4 @@
+**THE PHYSICAL IMPLEMENTATION (GDSII) OF THE CIRCUIT CAN BE FOUND HERE:** [https://github.com/NavyStudent2893/16-bit-Cordic-GDSII-runs-using-Librelane]
 # 16-bit CORDIC Core in Verilog
 
 ##  Overview
@@ -5,6 +6,7 @@ This repository contains the Verilog implementation of a **16-bit CORDIC (Coordi
 The design uses only **adders, subtractors, and bit-shifters**, completely avoiding hardware multipliers.
 
 This project was developed as part of the **eSim Hackathon 2025**, and was functionally verified using the **Makerchip IDE** simulation environment.
+
 
 ---
 
