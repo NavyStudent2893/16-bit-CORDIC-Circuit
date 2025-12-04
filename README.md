@@ -100,7 +100,7 @@ Physical design targeting the IHP SG13G2 PDK was not completed during the hackat
 
 - RTL Design: Completed  
 - Functional Simulation: Verified using Makerchip  
-- Synthesis and Physical Design: Pending / Future Work  
+- Synthesis and Physical Design: DONE
 
 ---
 
