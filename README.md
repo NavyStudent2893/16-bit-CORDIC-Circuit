@@ -38,6 +38,19 @@ A scaling factor of 4974, representing (1/K × 2¹³), is applied to the initial
 ---
 
 ##  Modules
+## Project Structure
+
+```text
+16-bit-CORDIC-Circuit/
+├── cordic.v                     # Top-level CORDIC implementation
+├── angle_lut.v                  # Arctangent lookup table
+├── cordic_makechip_code.v       # Makerchip testbench
+├── cordic_makerchip_waveform.vcd# Simulation waveform
+├── 30.png                       # 30° simulation result
+├── 45.png                       # 45° simulation result
+├── 60.png                       # 60° simulation result
+└── README.md
+```
 
 - **cordic.v:** Contains the FSM controller and datapath logic for iterative rotation.  
 - **angle_lut.v:** Combinational module providing pre-calculated arctangent constants (`atan(2⁻ⁱ)`) using the 2¹⁵ angle scaling.
